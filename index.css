@@ -1,4 +1,62 @@
+/*  HOME PAGE = index.html  */
+
 /* header */
+
+header {
+    text-align: center;
+}
+img.logo {
+    max-width: 40%;
+    max-height: auto;
+}
+
+/* Click through to other pages */
+nav a {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(195, 233, 222);
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size: 1.5vw; 
+}
+
+
+/* logo */
+main {
+    text-align: center;
+}
+
+/* Picture of Halina */
+img.hero {
+    margin-top: 2%;
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+    max-width: 60%;
+    max-height: auto;
+    border: 8px solid #c3e9de;
+    border-style: outset;
+
+}
+ 
+/* Quote */
+p {
+    margin-top: 30px;
+    max-height: 60%;
+    max-width: 30%;
+    margin-left: 35%;
+    font-style: italic;
+    font-size: medium;
+    
+    
+}
+
+p1 {
+    font-size: smaller;
+    padding-bottom: 10%;
+
+}
+/*================================================================*/
+/*  ABOUT PAGE = about.html  */
 
 header {
     text-align: center;
@@ -23,27 +81,12 @@ main {
     text-align: center;
 }
 
-/* Picture of Halina */
-img.hero {
-    margin-top: 2%;
-    border-radius: 50%;
-    width: 40%;
-    height: auto;
-    max-width: 60%;
-    max-height: auto;
-    border: 8px solid #c3e9de;
-    border-style: outset;
-    
-    
-
-}
- 
-/* Quote */
+/* Bio paragraph*/
 p {
     margin-top: 30px;
     max-height: 60%;
-    max-width: 30%;
-    margin-left: 35%;
+    max-width: 80%;
+    margin-left: 8%;
     font-style: italic;
     font-size: medium;
     
@@ -51,9 +94,66 @@ p {
 }
 
 p1 {
-    font-size: smaller;
-    padding-bottom: 10%;
     
+    text-align-last: center;
+    margin-top: 30px;
+    max-height: 60%;
+    max-width: 80%;
+    margin-left: 8%;
+    font-style: italic;
+    font-size: medium;
 
 }
 
+/*================================================================*/
+/*  EXPERIENCE PAGE = experience.html  */
+
+header {
+    text-align: center;
+}
+img.logo {
+    max-width: 40%;
+    max-height: auto;
+}
+
+/* Click through to other pages */
+nav a {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(195, 233, 222);
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size: 1.5vw; 
+    
+}
+
+/* logo */
+main {
+    text-align: center;
+}
+
+
+/*================================================================*/
+/*  PORTFOLIO PAGE = portfolio.html  */
+
+header {
+    text-align: center;
+}
+img.logo {
+    max-width: 40%;
+    max-height: auto;
+}
+
+/* Click through to other pages */
+nav a {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(195, 233, 222);
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size: 1.5vw; 
+    
+}
+
+/* logo */
+main {
+    text-align: center;
+}
