@@ -7,7 +7,7 @@ header {
 }
 img.logo {
     max-width: 40%;
-    max-height: auto;
+    width: 150px;
 }
 
 /* Click through to other pages */
@@ -16,7 +16,8 @@ nav a {
     color: rgb(195, 233, 222);
     margin-bottom: 40px;
     text-decoration: none;
-    font-size: 1.5vw; 
+    text-size-adjust: 10%;
+
 }
 
 
@@ -29,7 +30,7 @@ main {
 img.hero {
     margin-top: 2%;
     border-radius: 50%;
-    width: 40%;
+    width: 30%;
     height: auto;
     max-width: 60%;
     max-height: auto;
@@ -39,20 +40,25 @@ img.hero {
 }
  
 /* Quote */
-p {
+div {
     margin-top: 30px;
     max-height: 60%;
-    max-width: 30%;
-    margin-left: 35%;
+    max-width: 20%;
+    margin-left: 40%;
     font-style: italic;
-    font-size: medium;
-    
+    text-size-adjust: 10%;
+    background-color: #dbf5f4;
+    border-radius: 75%;
+    background: radial-gradient(circle at center, #ceefef 0, #f2ffff, white 100%);
     
 }
 
 p1 {
     font-size: smaller;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
+    position: relative;
+    top: 15px;
+    text-size-adjust: 10%;
 
 }
 /*================================================================*/
@@ -61,10 +67,12 @@ p1 {
 header {
     text-align: center;
 }
+
 img.logo {
     max-width: 40%;
-    max-height: auto;
+    width: 150px;
 }
+
 
 /* Click through to other pages */
 nav a {
@@ -85,23 +93,16 @@ main {
 p {
     margin-top: 30px;
     max-height: 60%;
-    max-width: 80%;
-    margin-left: 8%;
+    max-width: 20%;
+    margin-left: 40%;
     font-style: italic;
-    font-size: medium;
-    
+    text-size-adjust: 10%;
+    text-align: center;
+    background-color: #dbf5f4;
+    border-radius: 75%;
+    background: radial-gradient(circle at center, #ceefef 0, #f2ffff, white 100%);
     
 }
-
-p1 {
-    
-    text-align-last: center;
-    margin-top: 30px;
-    max-height: 60%;
-    max-width: 80%;
-    margin-left: 8%;
-    font-style: italic;
-    font-size: medium;
 
 }
 
@@ -140,6 +141,38 @@ h2 {
 
 }
 
+div2 {
+    margin-top: 30px;
+    max-height: 60%;
+    max-width: 20%;
+    font-style: italic;
+    text-align: right;
+    background-color: #dbf5f4;
+    border-radius: 75%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 255, 255));
+}
+
+h3 {
+    margin-top: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(195, 233, 222);
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size: 3vw; 
+}
+div3 {
+    margin-top: 30px;
+    max-height: 60%;
+    max-width: 20%;
+    font-style: italic;
+    text-align: right;
+    background-color: #dbf5f4;
+    border-radius: 75%;
+    background: radial-gradient(circle at center, #ddf3f3 0, #f2ffff, white 100%);
+    
+}
+
+
 
 /*================================================================*/
 /*  PORTFOLIO PAGE = portfolio.html  */
@@ -165,4 +198,13 @@ nav a {
 /* logo */
 main {
     text-align: center;
+}
+
+img.comingsoon {
+
+    max-width: 40%;
+    max-height: 60%;
+    margin-top: 8%;
+    padding-right: 20px;
+    margin-left: 30%;
 }
