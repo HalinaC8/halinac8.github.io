@@ -77,7 +77,7 @@ img.logo {
 /* Click through to other pages */
 nav a {
     font-family:Arial, Helvetica, sans-serif;
-    color: rgb(195, 233, 222);
+    color: #c3e9de;
     margin-bottom: 40px;
     text-decoration: none;
     font-size: 1.5vw; 
@@ -87,6 +87,11 @@ nav a {
 /* logo */
 main {
     text-align: center;
+}
+
+img.about {
+    max-width: 20%;
+
 }
 
 /* Bio paragraph*/
@@ -172,7 +177,13 @@ div3 {
     
 }
 
+img.experience {
+    max-width: 20%;
+}
 
+img.education {
+    max-width: 20%;
+}
 
 /*================================================================*/
 /*  PORTFOLIO PAGE = portfolio.html  */
