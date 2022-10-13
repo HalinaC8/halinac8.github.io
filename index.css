@@ -26,6 +26,18 @@ main {
     text-align: center;
 }
 
+img.software {
+    max-width: 15%;
+   
+    margin-bottom: 80px;
+}
+
+img.engineer {
+    max-width: 15%;
+    margin-bottom: 80px;
+    
+}
+
 /* Picture of Halina */
 img.hero {
     margin-top: 2%;
@@ -109,7 +121,6 @@ p {
     
 }
 
-}
 
 /*================================================================*/
 /*  EXPERIENCE PAGE = experience.html  */
@@ -209,6 +220,13 @@ nav a {
 /* logo */
 main {
     text-align: center;
+}
+
+img.portfolio {
+    max-width: 20%;
+    margin-left: 40%;
+    margin-top: 20px;
+    
 }
 
 img.comingsoon {
